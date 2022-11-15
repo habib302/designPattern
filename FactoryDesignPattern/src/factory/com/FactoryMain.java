@@ -4,7 +4,6 @@ public class FactoryMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		System.out.println("factory design pattern");
 		
 		
@@ -18,5 +17,6 @@ public class FactoryMain {
 		OperatingSystemFactory osf = new OperatingSystemFactory();
 		OS obj = osf.getInstance("android");
 		obj.specification();
+
 	}
 }
